@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Thumbnails</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Uploaded Images</h1>
+        <a href="/"><button>Upload new</button></a>
+    </div>
+    <div class="imgcontainer"> 
+        <% images.forEach(function(image) { %> 
+        <a href="/image/<%= image._id %>" class="rem"> 
+            <div class="imgdiv"> 
+                <img class="thumb" src="data:image/<%=image.thumb.contentType%>;base64, <%=image.thumb.data.toString('base64')%>"> 
+            </div> 
+        </a> 
+        <% }) %> 
+    </div> 
+</body>
+</html>

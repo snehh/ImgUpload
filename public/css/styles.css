@@ -1,0 +1,87 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #F1FAEE;
+}
+
+.container{
+    text-align: center;
+}
+
+.input-field{
+    display: inline-block;
+}
+
+label.btn{
+    background-color: #7db1c1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #F1FAEE;
+    cursor: pointer;
+}
+
+label.btn:hover{
+    background-color: #99ccd3;
+}
+span#path{
+    color: #0D0A0B;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #9e5895;
+    color: #F1FAEE;
+    margin-bottom: 10px;
+    outline: none;
+}
+button:hover{
+    background-color: #83497B;
+}
+button#submit{
+    margin-bottom: 10px;
+    background-color: #70C84B;
+    color: #F1FAEE;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button#submit:hover{
+    background-color: #60BB3A;
+}
+button#submit:disabled{
+    opacity: 0.9;
+    cursor: default;
+    color: #F1FAEE;
+    background-color: #7475782d;
+}
+.header{
+    text-align: center;
+}
+.imgdiv{
+    display: inline-block;
+}
+.rem{
+    text-decoration: none;
+}
+.imgcontainer{
+    text-align: center;
+}
+img.thumb{
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #0d0a0b3f;
+}
+img.thumb:hover{
+    background-color: #0d0a0b6b;
+}
+.responsive {
+    max-width: 90%;
+    height: auto;
+}

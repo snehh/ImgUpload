@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Image</title>
+</head>
+<body>
+    <div class="header"> 
+        <a href="/thumbnails"><button>Go back</button></a><br>
+        <img class="responsive" src="data:image/<%=image.contentType%>;base64, 
+             <%=image.data.toString('base64')%>"> 
+    </div> 
+</body>
+</html>
